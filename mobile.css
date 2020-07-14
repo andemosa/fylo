@@ -1,0 +1,420 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+li {
+  list-style-type: none;
+}
+
+/*Header*/
+header {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1400px;
+  margin: 2em auto;
+}
+.logo {
+  width: 25%;
+}
+.nav {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  max-width: 400px;
+  padding-left: 1.3em;
+}
+.nav-items {
+  margin: 0 0.2em;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/*Hero Section*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 760px;
+  margin: 2em auto 8em;
+  text-align: center;
+}
+.banner {
+  width: 80%;
+  margin: 1em auto 2em;
+}
+.fylo {
+  width: 90%;
+  margin: 1em auto 2em;
+}
+.start {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  width: 70%;
+  margin: auto;
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  border-radius: 50px;
+}
+
+/*Columns Section*/
+.columns {
+  width: 90%;
+  max-width: 860px;
+  margin: auto;
+  text-align: center;
+}
+.column {
+  width: 90%;
+  max-width: 400px;
+  margin: 3em auto;
+}
+.column-img {
+  height: 85px;
+  text-align: center;
+}
+h3 {
+  margin: 1em auto;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+/*Productive Section*/
+.productive {
+  width: 80%;
+  max-width: 1400px;
+  margin: 4em auto;
+  text-align: center;
+}
+.wherever {
+  margin-top: 2em;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+.stay {
+  margin-top: 1em;
+  text-align: left;
+}
+.see {
+  margin-top: 1em;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  width: fit-content;
+}
+.works {
+  text-decoration: none;
+  color: hsl(176, 68%, 64%);
+}
+
+/*Testimonials Section*/
+.testimonials {
+  width: 80%;
+  max-width: 1400px;
+  margin: 4em auto;
+}
+.quotes {
+  max-width: 20px;
+}
+.row {
+  background-color: hsl(219, 30%, 18%);
+  padding: 2em 1em 1em;
+  margin: 1em;
+}
+.author {
+  display: flex;
+  margin: 1em 0 0;
+}
+.author-pic {
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+.name {
+  margin: 0.1em 0;
+}
+.details {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*Early Section*/
+.early {
+  position: relative;
+  bottom: -80px;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2em 0 0;
+  text-align: center;
+  background-color: hsl(217, 28%, 15%);
+  border: 1px solid hsl(217, 28%, 15%);
+}
+.started {
+  width: 90%;
+  margin: 1em auto;
+}
+form {
+  text-align: center;
+  margin: 2em auto 2em;
+}
+.mail {
+  width: 80%;
+  border-radius: 5px;
+  margin: 1em auto 1.5em;
+}
+.email-container {
+  display: flex;
+  position: relative;
+}
+.error-icon {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  display: none;
+}
+#email {
+  padding: 1em 2em;
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+}
+.error {
+  display: none;
+  font-size: small;
+  text-align: left;
+  padding: 0.2em 1em;
+  background-color: hsl(0, 94%, 66%);
+}
+.send {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  width: 80%;
+  padding: 1em;
+  border-radius: 50px;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: white;
+  border: none;
+  margin: 0 auto;
+}
+
+/*Footer Section*/
+footer {
+  background-color: hsl(216, 53%, 9%);
+  padding-top: 6em;
+}
+.foot-logo {
+  width: 50%;
+}
+.color {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2em auto 0;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin: 1em auto 0;
+  width: 100%;
+  margin: auto;
+}
+.svg {
+  display: flex;
+  margin-top: 1em;
+}
+.point {
+  margin-right: 1em;
+}
+.phone,
+.foot-mail {
+  display: flex;
+  margin: 1em 0;
+}
+.phone svg,
+.foot-mail svg {
+  margin-right: 1em;
+}
+.about,
+.contact {
+  margin: 1em auto;
+}
+.about-links,
+.contact-links {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0.2em auto;
+}
+.socials {
+  display: none;
+}
+.fa {
+  margin: 0 1em;
+  color: white;
+}
+.mobile {
+  display: flex;
+  justify-content: center;
+}
+.andi {
+  padding: 1em;
+  text-align: center;
+}
+.andi a {
+  color: aliceblue;
+}
+.andi a:hover {
+  color: hsl(231, 69%, 60%);
+}
+
+/*Media Queries*/
+@media (min-width: 520px) {
+  .row {
+    padding: 2em 2em 1em;
+  }
+  .color {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .left-footer {
+    width: 60%;
+  }
+  .right-footer {
+    width: 35%;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .lists {
+    display: flex;
+  }
+  .early {
+    width: 80%;
+  }
+}
+
+@media (min-width: 820px) {
+  .nav-items {
+    font-size: 1.8rem;
+  }
+  .details {
+    font-size: 14px;
+  }
+  .columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .left-column,
+  .right-column {
+    display: flex;
+  }
+  .access,
+  .security,
+  .collaboration,
+  .store {
+    width: 40%;
+  }
+  .early {
+    width: 70%;
+    padding: 2em 1em 0 2em;
+  }
+  .us {
+    display: flex;
+    justify-content: center;
+    padding: 0 1em;
+  }
+  .mail {
+    margin: unset;
+    width: 60%;
+  }
+  .send {
+    width: 35%;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .svg {
+    width: 55%;
+  }
+  .contacts {
+    width: 35%;
+  }
+}
+
+@media (min-width: 990px) {
+  .productive {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .stay-illustration {
+    width: 50%;
+  }
+  .right {
+    width: 42%;
+    text-align: left;
+  }
+  .wherever {
+    width: 60%;
+  }
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    position: relative;
+  }
+  .quotes {
+    max-width: 40px;
+    position: absolute;
+    top: -5%;
+    left: 1%;
+    z-index: -1;
+  }
+  .rows {
+    display: flex;
+  }
+  .early {
+    width: 65%;
+  }
+  .left-footer {
+    width: 50%;
+  }
+  .right-footer {
+    width: 45%;
+    flex-direction: row;
+    justify-content: unset;
+  }
+  .lists {
+    width: 70%;
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  .mobile {
+    display: none;
+  }
+}
